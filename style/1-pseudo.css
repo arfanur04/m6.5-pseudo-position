@@ -1,21 +1,21 @@
 h3 {
-   color: peru;
+	color: peru;
 }
 
 /* hover means mouse over */
 h3:hover {
-   color: tomato;
+	color: tomato;
 }
 
 input:hover {
-   color: blue;
-   /* padding-left: 20px; */
-   outline: 0;
-   border: 1px solid purple;
+	color: blue;
+	/* padding-left: 20px; */
+	outline: 0;
+	border: 1px solid purple;
 }
 
 a:visited {
-   color: gray;
+	color: gray;
 }
 
 /* li:last-child {
@@ -26,6 +26,10 @@ a:visited {
    background-color: aqua;
 } */
 
-li:nth-child(3n+1) {
-   color: purple;
+li:nth-child(3n + 1) {
+	color: purple;
+}
+
+input::placeholder {
+	color: blue;
 }
